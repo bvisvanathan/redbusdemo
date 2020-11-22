@@ -6,10 +6,12 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.pages.LoginPage;
 
+@Listeners(ListnerTestng.class)
 public class LoginTest extends BaseClass {
 	    
 	    
